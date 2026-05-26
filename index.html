@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saurav Kumar — AI/ML Enthusiast & Aspiring Software Engineer</title>
+  <meta name="description" content="Portfolio of Saurav Kumar — AI/ML Enthusiast, Aspiring Software Engineer, and Microsoft Learn Student Ambassador. B.Tech CSE (AIML), Techno Main Salt Lake." />
+  <meta name="keywords" content="Saurav Kumar, AI, ML, Machine Learning, Software Engineering, Azure, Developer, Portfolio" />
+  <meta name="author" content="Saurav Kumar" />
+  <meta property="og:title" content="Saurav Kumar — AI/ML Enthusiast & Aspiring Software Engineer" />
+  <meta property="og:description" content="Explore the portfolio of Saurav Kumar — AI/ML projects, software engineering achievements, and cloud engineering expertise." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Lucide Icons (CDN) -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══ Background Effects ═══ -->
+  <div class="bg-glow" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <!-- ═══ NAVBAR ═══ -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="#" class="nav-logo">SK<span class="accent-dot">.</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="nav-hamburger" id="navHamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        Open to Opportunities
+      </div>
+      <h1 class="hero-name">
+        Hi, I'm <span class="gradient-text">Saurav Kumar</span>
+      </h1>
+      <p class="hero-headline">
+        AI/ML Enthusiast &nbsp;·&nbsp; Aspiring Software Engineer &nbsp;·&nbsp; Microsoft Learn Student Ambassador
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">
+          <i data-lucide="folder-open" style="width:18px;height:18px;"></i>
+          View My Work
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i data-lucide="mail" style="width:18px;height:18px;"></i>
+          Contact Me
+        </a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/skg666" target="_blank" rel="noopener" class="social-icon-labeled" aria-label="GitHub">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          <span>GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/saurav-kumar-13766a253" target="_blank" rel="noopener" class="social-icon-labeled" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://leetcode.com/u/TheTechieGuy/" target="_blank" rel="noopener" class="social-icon-labeled" aria-label="LeetCode">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/></svg>
+          <span>LeetCode</span>
+        </a>
+        <a href="https://codeforces.com/profile/SauravKumar" target="_blank" rel="noopener" class="social-icon-labeled" aria-label="Codeforces">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M4.5 7.5C5.328 7.5 6 8.172 6 9v10.5c0 .828-.672 1.5-1.5 1.5h-3C.672 21 0 20.328 0 19.5V9c0-.828.672-1.5 1.5-1.5h3zm9-4.5c.828 0 1.5.672 1.5 1.5v15c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5v-15c0-.828.672-1.5 1.5-1.5h3zm9 7.5c.828 0 1.5.672 1.5 1.5v7.5c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5V12c0-.828.672-1.5 1.5-1.5h3z"/></svg>
+          <span>Codeforces</span>
+        </a>
+        <a href="https://www.credly.com/users/c6ecb88c-3d9b-43f3-a09b-981cbf2f02d5/badges#credly" target="_blank" rel="noopener" class="social-icon-labeled" aria-label="Credly">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0L14.59 8.41L23 12L14.59 15.59L12 24L9.41 15.59L1 12L9.41 8.41L12 0Z"/></svg>
+          <span>Credly</span>
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>SCROLL</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══ ABOUT ═══ -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-card-visual">
+            <div style="font-family: var(--font-mono); font-size: 0.82rem; color: var(--text-muted); margin-bottom: 1rem;">
+              <span style="color: var(--accent);">const</span> <span style="color: var(--accent-secondary);">developer</span> = {<br/>
+              &nbsp;&nbsp;<span style="color: #f472b6;">name</span>: <span style="color: #fbbf24;">"Saurav Kumar"</span>,<br/>
+              &nbsp;&nbsp;<span style="color: #f472b6;">college</span>: <span style="color: #fbbf24;">"Techno Main Salt Lake"</span>,<br/>
+              &nbsp;&nbsp;<span style="color: #f472b6;">degree</span>: <span style="color: #fbbf24;">"B.Tech CSE (AIML)"</span>,<br/>
+              &nbsp;&nbsp;<span style="color: #f472b6;">session</span>: <span style="color: var(--accent);">"2022-2026"</span>,<br/>
+              &nbsp;&nbsp;<span style="color: #f472b6;">passions</span>: [<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #fbbf24;">"AI"</span>, <span style="color: #fbbf24;">"Cloud Computing"</span>,<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #fbbf24;">"Data Science"</span>, <span style="color: #fbbf24;">"Algorithms"</span><br/>
+              &nbsp;&nbsp;]<br/>
+              };
+            </div>
+            <div class="about-stats">
+              <div class="stat-item">
+                <div class="stat-number" data-count="500">0</div>
+                <div class="stat-label">DSA Problems</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number" data-count="1784">0</div>
+                <div class="stat-label">Peak CF Rating</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number" data-count="1864">0</div>
+                <div class="stat-label">Peak LC Rating</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">3+</div>
+                <div class="stat-label">Certifications</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reveal">
+          <span class="section-label">About Me</span>
+          <h2 class="section-title">Building intelligent systems,<br/>one algorithm at a time.</h2>
+          <p class="about-text">
+            <p style="color: var(--text-secondary); font-size: 1.05rem; margin-bottom: 1rem; line-height: 1.75;">
+              I'm <span class="highlight" style="color: var(--accent); font-weight:600;">Saurav Kumar</span>, a B.Tech student in
+              <span class="highlight" style="color: var(--accent); font-weight:600;">Computer Science (AI/ML)</span>
+              at Techno Main Salt Lake, Kolkata — Session <strong style="color: var(--text-primary);">2022-2026</strong>.
+            </p>
+            <p style="color: var(--text-secondary); font-size: 1.05rem; margin-bottom: 1rem; line-height: 1.75;">
+              Passionate tech enthusiast learning <span class="highlight" style="color: var(--accent-secondary); font-weight:600;">Data Science</span> and exploring
+              <span class="highlight" style="color: var(--accent-secondary); font-weight:600;">Artificial Intelligence (AI)</span>,
+              <span class="highlight" style="color: var(--accent-secondary); font-weight:600;">Machine Learning (ML)</span>,
+              <span class="highlight" style="color: var(--accent-secondary); font-weight:600;">Natural Language Processing (NLP)</span>,
+              <strong>Deep Learning</strong>, and <strong>Cloud Computing</strong>.
+              With a strong foundation in <strong>Python</strong> and <strong>Data Structures & Algorithms</strong>, I enjoy building intelligent systems that solve real-world problems.
+            </p>
+            <p style="color: var(--text-secondary); font-size: 1.05rem; margin-bottom: 1.5rem; line-height: 1.75;">
+              I'm especially interested in the intersection of <span class="highlight" style="color: var(--accent); font-weight:600;">AI and biology</span>—inspired by how neural networks mimic the brain and NLP models reflect human language understanding. Always eager to learn, build, and contribute to meaningful innovation.
+            </p>
+          </p>
+          <div class="about-info-grid">
+            <div class="info-item">
+              <span class="info-icon"><i data-lucide="map-pin" style="width:18px;height:18px;"></i></span>
+              <div>
+                <div class="info-label">Location</div>
+                <div class="info-value">Kolkata, India</div>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon"><i data-lucide="graduation-cap" style="width:18px;height:18px;"></i></span>
+              <div>
+                <div class="info-label">Degree</div>
+                <div class="info-value">B.Tech CSE (AIML)</div>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon"><i data-lucide="building-2" style="width:18px;height:18px;"></i></span>
+              <div>
+                <div class="info-label">College</div>
+                <div class="info-value">Techno Main Salt Lake</div>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon"><i data-lucide="calendar" style="width:18px;height:18px;"></i></span>
+              <div>
+                <div class="info-label">Session</div>
+                <div class="info-value">2022-2026</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SKILLS ═══ -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-label">Technical Skills</span>
+        <h2 class="section-title">My technology toolkit</h2>
+        <p class="section-subtitle">A curated set of technologies I use to build, deploy, and scale intelligent systems.</p>
+      </div>
+      <div class="skills-grid reveal-stagger">
+        <!-- Languages -->
+        <div class="skill-card" data-category="languages">
+          <div class="skill-card-header">
+            <div class="skill-card-icon"><i data-lucide="code-2" style="width:22px;height:22px;"></i></div>
+            <h3 class="skill-card-title">Languages</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">Java</span>
+          </div>
+        </div>
+        <!-- Cloud Platforms -->
+        <div class="skill-card" data-category="cloud">
+          <div class="skill-card-header">
+            <div class="skill-card-icon"><i data-lucide="cloud" style="width:22px;height:22px;"></i></div>
+            <h3 class="skill-card-title">Cloud Platforms</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Google Cloud (GCP)</span>
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Microsoft Azure</span>
+          </div>
+        </div>
+        <!-- Core Concepts -->
+        <div class="skill-card" data-category="concepts">
+          <div class="skill-card-header">
+            <div class="skill-card-icon"><i data-lucide="book-open" style="width:22px;height:22px;"></i></div>
+            <h3 class="skill-card-title">Core Concepts</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">OOPS</span>
+            <span class="skill-tag">DBMS</span>
+            <span class="skill-tag">OS</span>
+            <span class="skill-tag">CN</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">MySQL</span>
+          </div>
+        </div>
+        <!-- Data Science & ML -->
+        <div class="skill-card" data-category="ml">
+          <div class="skill-card-header">
+            <div class="skill-card-icon"><i data-lucide="brain" style="width:22px;height:22px;"></i></div>
+            <h3 class="skill-card-title">Data Science & ML</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Machine Learning</span>
+            <span class="skill-tag">NLP</span>
+            <span class="skill-tag">Data Analysis</span>
+            <span class="skill-tag">Pandas</span>
+            <span class="skill-tag">NumPy</span>
+            <span class="skill-tag">Scikit-learn</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ EXPERIENCE ═══ -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-label">Work Experience</span>
+        <h2 class="section-title">Professional journey</h2>
+        <p class="section-subtitle">Building real-world AI solutions in production environments.</p>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <div class="timeline-role">SDE Intern</div>
+                <div class="timeline-company"><a href="https://bluestock.in/" target="_blank" rel="noopener" style="color: var(--accent); text-decoration: none;">@ BLUESTOCK.in</a></div>
+              </div>
+              <span class="timeline-date">
+                <i data-lucide="calendar" style="width:14px;height:14px;"></i>
+                June 2025 – July 2025
+              </span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Engineered a high-performance full-stack IPO portal handling <strong>500+</strong> daily requests, deploying optimized REST APIs that reduced data retrieval latency by <strong>40%</strong>.</li>
+              <li>Designed a responsive frontend to visualize key IPO data, improving user retention by <strong>20%</strong> through optimized rendering of pricing and timelines.</li>
+              <li>Architected a secure admin panel for CRUD operations, reducing manual document management time by <strong>40%</strong> for RHP/DRHP filings.</li>
+              <li>Accelerated project delivery within a 5-person Agile team, reducing development lifecycle time by <strong>15%</strong> through efficient sprint planning.</li>
+            </ul>
+            <div class="timeline-cert-preview cert-trigger" data-cert-url="bluestock-certificate.jpg" data-cert-caption="Software Development Engineer (SDE) Internship Certificate - Bluestock Fintech">
+              <div class="cert-info">
+                <i data-lucide="award" class="cert-icon-award"></i>
+                <div class="cert-details">
+                  <span class="cert-title">SDE Internship Certificate</span>
+                  <span class="cert-issuer">Verified by Bluestock Fintech</span>
+                </div>
+              </div>
+              <div class="cert-thumbnail-wrapper">
+                <img src="bluestock-certificate.jpg" alt="Bluestock SDE Internship Certificate" class="cert-thumbnail">
+                <div class="cert-thumbnail-overlay">
+                  <i data-lucide="eye" style="width:20px;height:20px;"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <div class="timeline-role">AI Azure Intern</div>
+                <div class="timeline-company">@ Microsoft Initiative (Implemented by Edunet Foundation & AICTE)</div>
+              </div>
+              <span class="timeline-date">
+                <i data-lucide="calendar" style="width:14px;height:14px;"></i>
+                June 2025 – July 2025
+              </span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Leveraged Azure AI services (Machine Learning, Cognitive Services) to build scalable AI solutions, achieving <strong>99.9%</strong> uptime during testing phases.</li>
+              <li>Trained and deployed a predictive ML model on Azure, optimizing data preprocessing pipelines to reduce latency by <strong>30%</strong> for real-time inference.</li>
+              <li>Integrated NLP and Computer Vision capabilities to automate text/image analysis for <strong>10,000+</strong> records, cutting manual data processing time by <strong>50%</strong>.</li>
+            </ul>
+            <div class="timeline-cert-preview cert-trigger" data-cert-url="azure-certificate.jpg" data-cert-caption="AI Azure Intern Certificate - EduSkills Foundation in partnership with Microsoft">
+              <div class="cert-info">
+                <i data-lucide="award" class="cert-icon-award"></i>
+                <div class="cert-details">
+                  <span class="cert-title">AI Azure Intern Certificate</span>
+                  <span class="cert-issuer">Verified by Microsoft & EduSkills</span>
+                </div>
+              </div>
+              <div class="cert-thumbnail-wrapper">
+                <img src="azure-certificate.jpg" alt="AI Azure Intern Certificate" class="cert-thumbnail">
+                <div class="cert-thumbnail-overlay">
+                  <i data-lucide="eye" style="width:20px;height:20px;"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PROJECTS ═══ -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-label">Projects</span>
+        <h2 class="section-title">Things I've built</h2>
+        <p class="section-subtitle">From AI chatbots to cloud-deployed ML systems — here are some highlights.</p>
+      </div>
+      <div class="projects-grid reveal-stagger">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon">
+              <i data-lucide="bot" style="width:24px;height:24px;"></i>
+            </div>
+            <div class="project-links-top">
+              <a href="https://github.com/skg666" target="_blank" rel="noopener" class="project-link-icon" aria-label="GitHub Repo">
+                <i data-lucide="github" style="width:18px;height:18px;"></i>
+              </a>
+              <a href="https://crema-coffee-ai-dteu.vercel.app/" target="_blank" rel="noopener" class="project-link-icon" aria-label="Live App">
+                <i data-lucide="external-link" style="width:18px;height:18px;"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">Crema AI Chatbot</h3>
+            <span class="project-date">Jan 2026 – Mar 2026</span>
+            <p class="project-desc">
+              Domain-specific AI chatbot utilizing Next.js, React, and Tailwind CSS handling 150+ specialty queries.
+              Optimized query resolution by 30% and deployed on Vercel with 99.9% uptime.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Next.js</span>
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Tailwind</span>
+              <span class="tech-tag">AI Integration</span>
+            </div>
+          </div>
+          <div class="project-card-footer">
+            <a href="https://github.com/skg666" target="_blank" rel="noopener" class="btn btn-sm btn-outline">
+              <i data-lucide="github" style="width:15px;height:15px;"></i> GitHub
+            </a>
+            <a href="https://crema-coffee-ai-dteu.vercel.app/" target="_blank" rel="noopener" class="btn btn-sm btn-primary">
+              <i data-lucide="external-link" style="width:15px;height:15px;"></i> Live App
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon" style="background: linear-gradient(135deg, rgba(52,211,153,0.12), rgba(167,139,250,0.12)); color: var(--accent-secondary);">
+              <i data-lucide="sprout" style="width:24px;height:24px;"></i>
+            </div>
+            <div class="project-links-top">
+              <a href="https://github.com/skg666" target="_blank" rel="noopener" class="project-link-icon" aria-label="GitHub Repo">
+                <i data-lucide="github" style="width:18px;height:18px;"></i>
+              </a>
+              <a href="https://agriclimate-app-chatbot-6svdh2cagekneeotwyawrl.streamlit.app/" target="_blank" rel="noopener" class="project-link-icon" aria-label="Live App">
+                <i data-lucide="external-link" style="width:18px;height:18px;"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <h3 class="project-title">AgriClimate-QA Chatbot</h3>
+            <span class="project-date">June 2025 – July 2025</span>
+            <p class="project-desc">
+              AI-powered Streamlit chatbot using Python to resolve natural-language agricultural queries across 50+ topics.
+              Implemented NLP intent classification with 90% accuracy handling 500+ daily queries.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Machine Learning</span>
+              <span class="tech-tag">Streamlit</span>
+              <span class="tech-tag">NLP</span>
+            </div>
+          </div>
+          <div class="project-card-footer">
+            <a href="https://github.com/skg666" target="_blank" rel="noopener" class="btn btn-sm btn-outline">
+              <i data-lucide="github" style="width:15px;height:15px;"></i> GitHub
+            </a>
+            <a href="https://agriclimate-app-chatbot-6svdh2cagekneeotwyawrl.streamlit.app/" target="_blank" rel="noopener" class="btn btn-sm btn-primary">
+              <i data-lucide="external-link" style="width:15px;height:15px;"></i> Live App
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ ACHIEVEMENTS ═══ -->
+  <section class="section" id="achievements">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-label">Achievements & Certifications</span>
+        <h2 class="section-title">Milestones & accolades</h2>
+        <p class="section-subtitle">Competitive programming accomplishments and industry certifications.</p>
+      </div>
+      <div class="achievements-container reveal-stagger">
+        <!-- Coding Milestones Column -->
+        <div class="achievements-column">
+          <h3 class="achievement-column-title">
+            <i data-lucide="code-2" class="title-icon"></i>
+            <span>Coding Milestones</span>
+          </h3>
+          <div class="achievements-column-grid">
+            <div class="achievement-card">
+              <div class="achievement-icon" style="background: rgba(239,68,68,0.1); color: #ef4444;">
+                <i data-lucide="flame" style="width:22px;height:22px;"></i>
+              </div>
+              <div class="achievement-content">
+                <h4>Codeforces Expert</h4>
+                <p>Peak Rating: <strong>1784</strong> — Top 5% globally among competitive programmers.</p>
+                <div class="achievement-links">
+                  <a href="https://codeforces.com/profile/SauravKumar" target="_blank" rel="noopener" class="achievement-link">
+                    <i data-lucide="external-link" style="width:13px;height:13px;"></i> View Profile
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="achievement-card">
+              <div class="achievement-icon" style="background: rgba(251,191,36,0.1); color: #fbbf24;">
+                <i data-lucide="swords" style="width:22px;height:22px;"></i>
+              </div>
+              <div class="achievement-content">
+                <h4>LeetCode Knight</h4>
+                <p>Peak Rating: <strong>1864</strong> — Consistently among the top performers.</p>
+                <div class="achievement-links">
+                  <a href="https://leetcode.com/u/TheTechieGuy/" target="_blank" rel="noopener" class="achievement-link">
+                    <i data-lucide="external-link" style="width:13px;height:13px;"></i> View Profile
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="achievement-card">
+              <div class="achievement-icon" style="background: rgba(167,139,250,0.1); color: #a78bfa;">
+                <i data-lucide="target" style="width:22px;height:22px;"></i>
+              </div>
+              <div class="achievement-content">
+                <h4>Algorithmic Mastery</h4>
+                <p><strong>500+</strong> DSA problems solved across multiple platforms.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Industry Certifications Column -->
+        <div class="achievements-column">
+          <h3 class="achievement-column-title">
+            <i data-lucide="award" class="title-icon"></i>
+            <span>Industry Certifications</span>
+          </h3>
+          <div class="achievements-column-grid">
+            <div class="achievement-card cert">
+              <div class="achievement-icon">
+                <i data-lucide="badge-check" style="width:22px;height:22px;"></i>
+              </div>
+              <div class="achievement-content">
+                <h4>Azure AI Engineer Associate</h4>
+                <p>Microsoft-certified expertise in Azure AI services and solutions.</p>
+                <div class="achievement-links">
+                  <span class="cert-trigger achievement-link" data-cert-url="azure-ai-engineer.png" data-cert-caption="Microsoft Certified: Azure AI Engineer Associate (Credential ID: 4D821D7403FB2523)">
+                    <i data-lucide="eye" style="width:13px;height:13px;"></i> View Certificate
+                  </span>
+                  <a href="https://learn.microsoft.com/api/credentials/share/en-in/sauravkumar-7942/4D821D7403FB2523?sharingId=4D1D1F491A9850F5" target="_blank" rel="noopener" class="achievement-link">
+                    <i data-lucide="external-link" style="width:13px;height:13px;"></i> Verify
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="achievement-card cert">
+              <div class="achievement-icon">
+                <i data-lucide="shield-check" style="width:22px;height:22px;"></i>
+              </div>
+              <div class="achievement-content">
+                <h4>Aviatrix Multicloud Network</h4>
+                <p>Certified in multicloud networking and infrastructure design.</p>
+                <div class="achievement-links">
+                  <span class="cert-trigger achievement-link" data-cert-url="aviatrix-certificate.jpg" data-cert-caption="Aviatrix Certified Engineer: Multicloud Network Associate (ACE ID: 2025-24683)">
+                    <i data-lucide="eye" style="width:13px;height:13px;"></i> View Certificate
+                  </span>
+                  <a href="https://www.credly.com/badges/746b30f8-5870-42fa-b8c2-893370f3c328/linked_in_profile" target="_blank" rel="noopener" class="achievement-link">
+                    <i data-lucide="external-link" style="width:13px;height:13px;"></i> Verify
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="achievement-card cert">
+              <div class="achievement-icon">
+                <i data-lucide="sparkles" style="width:22px;height:22px;"></i>
+              </div>
+              <div class="achievement-content">
+                <h4>GenAI Academy</h4>
+                <p>Specialized training in generative AI technologies and applications.</p>
+                <div class="achievement-links">
+                  <span class="cert-trigger achievement-link" data-cert-url="genai-academy-certificate.jpg" data-cert-caption="Gen AI Academy Completion Certificate - Google Cloud & Hack2Skill (Certificate ID: 2025H2S04GENAI-A00931)">
+                    <i data-lucide="eye" style="width:13px;height:13px;"></i> View Certificate
+                  </span>
+                  <a href="https://certificate.hack2skill.com/legacy/2025H2S04GENAI-A00931" target="_blank" rel="noopener" class="achievement-link">
+                    <i data-lucide="external-link" style="width:13px;height:13px;"></i> Verify
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="achievement-card cert">
+              <div class="achievement-icon" style="background: rgba(66, 133, 244, 0.1); color: #4285f4;">
+                <i data-lucide="cloud" style="width:22px;height:22px;"></i>
+              </div>
+              <div class="achievement-content">
+                <h4>Google Cloud Skills Boost</h4>
+                <p>Public profile showcasing verified Google Cloud hands-on labs and skill badges.</p>
+                <div class="achievement-links">
+                  <a href="https://www.skills.google/public_profiles/d0626f4f-a31b-4521-bbc1-d9439be12425" target="_blank" rel="noopener" class="achievement-link">
+                    <i data-lucide="external-link" style="width:13px;height:13px;"></i> View Profile
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="achievement-card cert">
+              <div class="achievement-icon">
+                <i data-lucide="message-square-code" style="width:22px;height:22px;"></i>
+              </div>
+              <div class="achievement-content">
+                <h4>Microsoft Applied Skills: Azure NLP</h4>
+                <p>Certified in building and deploying natural language processing solutions with Azure AI Language.</p>
+                <div class="achievement-links">
+                  <span class="cert-trigger achievement-link" data-cert-url="azure-nlp-certificate.png" data-cert-caption="Microsoft Applied Skills: Build a natural language processing solution with Azure AI Language (Credential ID: DB32E918DDE8F285)">
+                    <i data-lucide="eye" style="width:13px;height:13px;"></i> View Certificate
+                  </span>
+                  <a href="https://learn.microsoft.com/api/credentials/share/en-in/SauravKumar-1630/DB32E918DDE8F285?sharingId=studentamb_475130" target="_blank" rel="noopener" class="achievement-link">
+                    <i data-lucide="external-link" style="width:13px;height:13px;"></i> Verify
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ LEADERSHIP ═══ -->
+  <section class="section" id="leadership">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-label">Leadership & Campus Engagement</span>
+        <h2 class="section-title">Driving impact beyond code</h2>
+      </div>
+      <div class="leadership-grid reveal-stagger">
+        <div class="leadership-card">
+          <div class="leadership-card-header">
+            <div class="leadership-logo msft">
+              <i data-lucide="monitor-speaker" style="width:24px;height:24px;"></i>
+            </div>
+            <div>
+              <div class="leadership-role">Microsoft Learn Student Ambassador</div>
+              <div class="leadership-period">April 2026 – Present</div>
+            </div>
+          </div>
+          <p>
+            Promoting tech education to <strong>1,000+ students</strong>, conducting technical sessions on Azure, AI, and
+            cloud technologies, and mentoring peers to build impactful projects.
+          </p>
+          <div class="achievement-links">
+            <span class="cert-trigger achievement-link" data-cert-url="microsoft-ambassador-certificate.jpg" data-cert-caption="Microsoft Student Ambassadors Associate Certificate (2026)">
+              <i data-lucide="eye" style="width:13px;height:13px;"></i> View Certificate
+            </span>
+            <a href="https://mvp.microsoft.com/studentambassadors/certificate/6c5308a2-bfcd-4c82-97e5-434e6b4965ae" target="_blank" rel="noopener" class="achievement-link">
+              <i data-lucide="external-link" style="width:13px;height:13px;"></i> Verify
+            </a>
+            <a href="https://mvp.microsoft.com/en-US/studentambassadors/profile/6c5308a2-bfcd-4c82-97e5-434e6b4965ae" target="_blank" rel="noopener" class="achievement-link">
+              <i data-lucide="user" style="width:13px;height:13px;"></i> Profile
+            </a>
+          </div>
+        </div>
+        <div class="leadership-card">
+          <div class="leadership-card-header">
+            <div class="leadership-logo google">
+              <i data-lucide="sparkles" style="width:24px;height:24px;"></i>
+            </div>
+            <div>
+              <div class="leadership-role">Google Student Ambassador</div>
+              <div class="leadership-period">August 2025 – December 2025</div>
+            </div>
+          </div>
+          <p>
+            Led AI initiatives, organized technical workshops for <strong>500+ attendees</strong>, and served as the
+            official Gemini representative — bridging cutting-edge Google tech with the student community.
+          </p>
+          <div class="achievement-links">
+            <span class="cert-trigger achievement-link" data-cert-url="google-ambassador-certificate.jpg" data-cert-caption="Google Student Ambassador Program - Certificate of Completion (Dec 31, 2025)">
+              <i data-lucide="eye" style="width:13px;height:13px;"></i> View Certificate
+            </span>
+            <span class="cert-trigger achievement-link" data-cert-url="google-ambassador-loa.jpg" data-cert-caption="Google Student Ambassador Program - Letter of Appreciation (Dec 31, 2025)">
+              <i data-lucide="file-text" style="width:13px;height:13px;"></i> View LOA
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT / FOOTER ═══ -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="reveal">
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-title">Let's connect</h2>
+      </div>
+      <div class="contact-grid reveal">
+        <div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i data-lucide="mail" style="width:20px;height:20px;"></i>
+            </div>
+            <div class="contact-info">
+              <div class="contact-label">Personal Email</div>
+              <div class="contact-value">
+                <a href="mailto:sauravkumar822115@gmail.com">sauravkumar822115@gmail.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i data-lucide="mail" style="width:20px;height:20px;"></i>
+            </div>
+            <div class="contact-info">
+              <div class="contact-label">Microsoft MLSA Email</div>
+              <div class="contact-value">
+                <a href="mailto:Saurav.Kumar1@studentambassadors.com">Saurav.Kumar1@studentambassadors.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i data-lucide="map-pin" style="width:20px;height:20px;"></i>
+            </div>
+            <div class="contact-info">
+              <div class="contact-label">Location</div>
+              <div class="contact-value">Kolkata, India</div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-right">
+          <div class="contact-cta-text">Have a project in mind?</div>
+          <p class="contact-cta-sub">I'm always open to discussing new opportunities and collaborations.</p>
+          <a href="mailto:sauravkumar822115@gmail.com" class="btn btn-primary">
+            <i data-lucide="send" style="width:18px;height:18px;"></i>
+            Send a Message
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2026 Saurav Kumar. Designed & built with passion.</p>
+        <div class="footer-socials">
+          <a href="https://github.com/skg666" target="_blank" rel="noopener" class="social-icon-labeled" aria-label="GitHub">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/saurav-kumar-13766a253" target="_blank" rel="noopener" class="social-icon-labeled" aria-label="LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://leetcode.com/u/TheTechieGuy/" target="_blank" rel="noopener" class="social-icon-labeled" aria-label="LeetCode">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/></svg>
+            <span>LeetCode</span>
+          </a>
+          <a href="https://codeforces.com/profile/SauravKumar" target="_blank" rel="noopener" class="social-icon-labeled" aria-label="Codeforces">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M4.5 7.5C5.328 7.5 6 8.172 6 9v10.5c0 .828-.672 1.5-1.5 1.5h-3C.672 21 0 20.328 0 19.5V9c0-.828.672-1.5 1.5-1.5h3zm9-4.5c.828 0 1.5.672 1.5 1.5v15c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5v-15c0-.828.672-1.5 1.5-1.5h3zm9 7.5c.828 0 1.5.672 1.5 1.5v7.5c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5V12c0-.828.672-1.5 1.5-1.5h3z"/></svg>
+            <span>Codeforces</span>
+          </a>
+          <a href="https://www.credly.com/users/c6ecb88c-3d9b-43f3-a09b-981cbf2f02d5/badges#credly" target="_blank" rel="noopener" class="social-icon-labeled" aria-label="Credly">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0L14.59 8.41L23 12L14.59 15.59L12 24L9.41 15.59L1 12L9.41 8.41L12 0Z"/></svg>
+            <span>Credly</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificate Lightbox Modal -->
+  <div id="certModal" class="modal" aria-hidden="true" role="dialog">
+    <button class="modal-close" aria-label="Close modal">
+      <i data-lucide="x" style="width:24px;height:24px;"></i>
+    </button>
+    <div class="modal-content-wrapper">
+      <img class="modal-content" id="modalImg" src="" alt="Certificate Details">
+      <div id="modalCaption" class="modal-caption"></div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
